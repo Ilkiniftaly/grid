@@ -1,0 +1,94 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* .wrapper {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+
+  grid-template-areas:
+    "a a b"
+    "c d b";
+  gap: 5px'
+  justify-content: center;
+}
+
+[class^="item"] {
+  background-color: grey;
+  border-radius: 5px;
+}
+.itemA {
+  grid-area: a;
+}
+.itemB {
+  grid-area: b;
+}
+.itemC {
+  grid-area: c;
+}
+.itemD {
+  grid-area: d;
+} */
+/* 
+.wrapper-two {
+  display: grid;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-areas:
+    "a a b b"
+    "c d d d"
+    "e e e e";
+  gap: 10px;
+}
+
+[class^="item"] {
+  background-color: grey;
+  border-radius: 10px;
+}
+.itema {
+  grid-area: a;
+}
+.itemb {
+  grid-area: b;
+}
+.itemc {
+  grid-area: c;
+}
+.itemd {
+  grid-area: d;
+}
+.iteme {
+  grid-area: e;
+} */
+
+[class^="item"] {
+  background-color: grey;
+  border-radius: 10px;
+}
+.item1 {
+  grid-area: A;
+}
+.item2 {
+  grid-area: B;
+}
+.item3 {
+  grid-area: C;
+}
+.item4 {
+  grid-area: D;
+}
+.item5 {
+  grid-area: E;
+}
+
+.wrapper-three {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 130px 130px 130px;
+  grid-template-areas:
+    "A A A A"
+    "B B C C"
+    "B B D E";
+}
